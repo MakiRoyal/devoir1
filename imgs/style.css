@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    background-color: #1E2237;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    padding-top: 15px;
+}
+
+.logo img {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.void1 {
+    width: 600px;
+}
+
+.option {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.option a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button {
+    padding-top: 5px;
+    color: #fff;
+}
+
+.button:hover {
+    border: 1px solid #FFC367;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.1s;
+    
+}
+
+.chat {
+    color: #FFC367;
+    border: 1px solid #FFC367;
+    padding: 5px 50px;
+}
+
+.firstPart {
+    background: url("bg.png");
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+    margin-top: 50px;
+}
+
+.intro img {
+    width: 550px;
+    height: 550px;
+}
+
+.intro h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #FFC367;
+}
+
+.intro h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.intro h4 {
+    color: #fff;
+}
+
+.secondPart {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.option2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button2 {
+    color: white;
+    border: 2px solid;
+    padding-top: 5px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: #2b2f42;
+}
+
+.button2:hover {
+    color: #1E2237;
+    background-color: #FFC367;
+    transition: 0.5s;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border: 2px solid #2b2f42;
+    gap: 30px;
+    width: 1048px;
+    margin-left: 154px;
+    padding-left: 80px;
+    border-top: none;
+    background-color: #2F3454;
+}
+
+
+.learnText  {
+    width: 480px;
+    color: white;
+}
+
+.aboutMeText h4 {
+    color: #FFC367;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.aboutMeText h3 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.learnButton {
+    color: #FFC367;
+    text-transform: uppercase;
+    margin-top: 25px;
+    border: 1px solid #FFC367;
+    width: 100px;
+    padding: 15px 30px;
+}
+
+.myClient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.myClient h4 {
+    color: #FFC367;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.myClient h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.project {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 550px;
+}
+
+.project img {
+    border-radius: 20px;
+}
+
+.branding {
+    border: 1px solid #2F3454;
+    background-color: #2F3454;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-color: #FFC367;
+}
+
+.branding:hover {
+    border-bottom: 15px solid #FFC367;
+    transition: 0.5s;
+}
+
+.game:hover {
+    border-bottom: 15px solid #FFC367;
+    transition: 0.5s;
+}
+
+.app:hover {
+    border-bottom: 15px solid #FFC367;
+    transition: 0.5s;
+}
+
+.interior:hover {
+    border-bottom: 15px solid #FFC367;
+    transition: 0.5s;
+}
+
+.game {
+    border: 1px solid #2F3454;
+    background-color: #2F3454;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-color: #FFC367;
+}
+
+.app {
+    border: 1px solid #2F3454;
+    background-color: #2F3454;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-color: #FFC367;
+}
+
+.interior {
+    border: 1px solid #2F3454;
+    background-color: #2F3454;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-color: #FFC367;
+}
+
+
+.description {
+    margin-top: 40px;
+    padding-left: 15px;
+}
+
+.course {
+    color: #FFC367;
+    text-transform: uppercase;
+}
+
+.management {
+    height: 20px;
+    width: 200px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.discover {
+    margin-top: 40px;
+    height: 20px;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+}
+
+.readMore {
+    color: #FFC367;
+    text-transform: uppercase;
+    margin-top: 70px;
+    border: 1px solid #FFC367;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.fourthPart {
+    background-color: #2F3454;
+    padding-bottom: 70px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.testimonials h4 {
+    margin-top: 50px;
+    color: #FFC367;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.testimonials h2 {
+    font-size: 45px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.happy {
+    display: flex;
+}
+
+.void2 {
+    width: 600px;
+}
+
+.button3 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.left {
+    border: 1px solid #FFC367;
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.left i {
+    color: grey;
+}
+
+.right {
+    border: 1px solid #FFC367;
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right i {
+    color: grey;
+}
+
+.opinion {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.profile {
+    border: 1px solid #FFC367;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 35px;
+    padding-top: 25px;
+    border-radius: 30px;
+}
+
+.client {
+    display: flex;
+}
+
+.clientDescription {
+    display: flex;
+    line-height: 15%;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.client i{
+    font-size: 33px;
+    color: #fff;
+}
+
+.void3 {
+    width: 60px;
+}
+
+.client img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.profileDescription {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 475px;
+    font-style: italic;
+    color: #fff;
+}
+
+.martha {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.codeNext {
+    color: #FFC367;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.fifthPart {
+    padding-bottom: 200px;
+}
+
+.honorable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.honorable h4 {
+    color: #FFC367;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.honorable h2 {
+    font-size: 45px;
+    color: white;
+}
+
+.clients {
+    display: flex;
+    gap: 200px;
+}
+
+.firstRow {
+    display: flex;
+    gap: 20px;
+}
+
+.secondRow {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    height: 200px;
+    background-color: #2F3454;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+}
+
+.end img {
+    height: 50px;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.let {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: grey;
+}
+
+.chat2 {
+    margin-top: 20px;
+    color: #FFC367;
+    border: 1px solid #FFC367;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 90px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
